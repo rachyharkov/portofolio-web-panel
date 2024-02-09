@@ -2,6 +2,7 @@
     <!-- Add Sidebar Menu Items Here -->
     <x-maz-sidebar-item name="Dashboard" link="/" icon="bi bi-grid-fill"></x-maz-sidebar-item>
     <x-maz-sidebar-item name="Achievements" link="{{ route('achievements.index') }}" icon="bi bi-award-fill"></x-maz-sidebar-item>
+    <x-maz-sidebar-item name="Projects" link="{{ route('projects.index') }}" icon="bi bi-briefcase-fill"></x-maz-sidebar-item>
 </x-maz-sidebar>
 
 @push('js')
